@@ -98,8 +98,8 @@ void SecretQuestion()
 
 void YesOrNoQuestion(string question, string yesAnswer, string noAnswer)
 {
-  bool wantsSecret = MooseAsks(question);
-    if (wantsSecret)
+  bool yes = MooseAsks(question);
+    if (yes)
     {
         MooseSays(yesAnswer);
     }
